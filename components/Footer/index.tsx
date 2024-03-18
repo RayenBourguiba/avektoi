@@ -30,8 +30,8 @@ const Footer = () => {
               >
                 <a href="index.html" className="relative">
                   <Image
-                    width={1000}
-                    height={800}
+                    width={110}
+                    height={80}
                     src="/images/logo/logo.png"
                     alt="Logo"
                     className="dark:hidden"
@@ -39,7 +39,7 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="/images/logo/logo.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
@@ -186,14 +186,14 @@ const Footer = () => {
                     Newsletter
                   </h4>
                   <p className="mb-4 w-[90%]">
-                    Subscribe to receive future updates
+                    Abonnez-vous pour recevoir tous nos nouveautés
                   </p>
 
                   <form action="#">
                     <div className="relative">
                       <input
                         type="text"
-                        placeholder="Email address"
+                        placeholder="Adresse Email"
                         className="w-full rounded-full border border-stroke px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                       />
 
