@@ -4,8 +4,14 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    unoptimized: true,
-    
+    domains: ["localhost", "vektoi.netlify.app"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+        port: "",
+      },
+    ],
   },
 };
 
