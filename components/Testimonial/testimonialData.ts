@@ -1,4 +1,3 @@
-import image3 from "@/public/images/user/imageRayen.png";
 import image4 from "@/public/images/user/imageJean.png";
 import image5 from "@/public/images/user/imageDefault.png";
 import { Testimonial } from "@/types/testimonial";
@@ -8,7 +7,7 @@ export const testimonialData: Testimonial[] = [
     id: 1,
     name: "Rayen BOURGUIBA",
     designation: "Software Engineer",
-    image: image3,
+    image: "/images/user/imageRayen.png",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
   },
@@ -16,7 +15,7 @@ export const testimonialData: Testimonial[] = [
     id: 2,
     name: "Jean Brunet",
     designation: "Founder & CEO @Actuarion",
-    image: image4,
+    image: "/images/user/imageJean.png",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
   },
@@ -24,7 +23,7 @@ export const testimonialData: Testimonial[] = [
     id: 3,
     name: "John Doe",
     designation: "Developer",
-    image: image5,
+    image: "/images/user/imageDefault.png",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
   },
