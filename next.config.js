@@ -1,18 +1,16 @@
-/** @type {import('next').NextConfig} */
+const { withExpo } = require("@expo/next-adapter");
+const withPlugins = require("next-compose-plugins");
+const withImages = require("next-images");
+const withFonts = require("next-fonts");
+const withTM = require("next-transpile-modules")(["react-native-web"]);
 
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
   images: {
-    domains: ["localhost"],
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "cdn.sanity.io",
-        port: "",
-      },
-    ],
+    disableStaticImages: true,
   },
 };
 
-module.exports = nextConfig;
+module.exports = withPlugins(
+  [withTM, withExpo, withImages, withFonts],
+  nextConfig
+); 
