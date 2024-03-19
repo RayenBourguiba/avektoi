@@ -5,13 +5,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: ["localhost"],
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "avektoi.netlify.app",
-        port: "",
-      },
-    ],
+    
   },
 };
 
