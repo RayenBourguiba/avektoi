@@ -38,7 +38,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 6,
-    icon: "/images/icon/icon-06.png",
+    icon: "/images/icon/icon-06.svg",
     title: "Alarme et Télé-surveillance",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
