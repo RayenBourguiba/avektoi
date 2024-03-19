@@ -1,5 +1,3 @@
-import image4 from "@/public/images/user/imageJean.png";
-import image5 from "@/public/images/user/imageDefault.png";
 import { Testimonial } from "@/types/testimonial";
 
 export const testimonialData: Testimonial[] = [
@@ -31,7 +29,7 @@ export const testimonialData: Testimonial[] = [
     id: 4,
     name: "John Doe 2",
     designation: "Developer 2",
-    image: image5,
+    image: "/images/user/imageDefault.png",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
   },
