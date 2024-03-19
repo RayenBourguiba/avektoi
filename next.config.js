@@ -1,16 +1,8 @@
-const { withExpo } = require("@expo/next-adapter");
-const withPlugins = require("next-compose-plugins");
-const withImages = require("next-images");
-const withFonts = require("next-fonts");
-const withTM = require("next-transpile-modules")(["react-native-web"]);
+/** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  images: {
-    disableStaticImages: true,
-  },
+  reactStrictMode: true,
+  swcMinify: true,
 };
 
-module.exports = withPlugins(
-  [withTM, withExpo, withImages, withFonts],
-  nextConfig
-); 
+module.exports = nextConfig;
